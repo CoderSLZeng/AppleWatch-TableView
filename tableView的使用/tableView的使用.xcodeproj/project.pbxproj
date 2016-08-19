@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		928649381D670FE300F00C7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 928649371D670FE300F00C7C /* main.m */; };
+		9286493B1D670FE300F00C7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9286493A1D670FE300F00C7C /* AppDelegate.m */; };
+		9286493E1D670FE300F00C7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9286493D1D670FE300F00C7C /* ViewController.m */; };
+		928649411D670FE300F00C7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9286493F1D670FE300F00C7C /* Main.storyboard */; };
+		928649431D670FE300F00C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928649421D670FE300F00C7C /* Assets.xcassets */; };
+		928649461D670FE300F00C7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928649441D670FE300F00C7C /* LaunchScreen.storyboard */; };
+		9286494B1D670FE400F00C7C /* TableView的使用 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9286494A1D670FE400F00C7C /* TableView的使用 WatchKit App.app */; };
+		928649511D670FE400F00C7C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9286494F1D670FE400F00C7C /* Interface.storyboard */; };
+		928649531D670FE400F00C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928649521D670FE400F00C7C /* Assets.xcassets */; };
+		9286495A1D670FE400F00C7C /* TableView的使用 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 928649591D670FE400F00C7C /* TableView的使用 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		928649621D670FE400F00C7C /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 928649611D670FE400F00C7C /* InterfaceController.m */; };
+		928649651D670FE400F00C7C /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 928649641D670FE400F00C7C /* ExtensionDelegate.m */; };
+		928649681D670FE400F00C7C /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 928649671D670FE400F00C7C /* NotificationController.m */; };
+		9286496A1D670FE400F00C7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928649691D670FE400F00C7C /* Assets.xcassets */; };
+		9286497F1D6710FB00F00C7C /* ad_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 9286497A1D6710FB00F00C7C /* ad_00.png */; };
+		928649801D6710FB00F00C7C /* ad_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 9286497A1D6710FB00F00C7C /* ad_00.png */; };
+		928649811D6710FB00F00C7C /* ad_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9286497B1D6710FB00F00C7C /* ad_01.png */; };
+		928649821D6710FB00F00C7C /* ad_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9286497B1D6710FB00F00C7C /* ad_01.png */; };
+		928649831D6710FB00F00C7C /* ad_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 9286497C1D6710FB00F00C7C /* ad_02.png */; };
+		928649841D6710FB00F00C7C /* ad_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 9286497C1D6710FB00F00C7C /* ad_02.png */; };
+		928649851D6710FB00F00C7C /* ad_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9286497D1D6710FB00F00C7C /* ad_03.png */; };
+		928649861D6710FB00F00C7C /* ad_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9286497D1D6710FB00F00C7C /* ad_03.png */; };
+		928649871D6710FB00F00C7C /* ad_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 9286497E1D6710FB00F00C7C /* ad_04.png */; };
+		928649881D6710FB00F00C7C /* ad_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 9286497E1D6710FB00F00C7C /* ad_04.png */; };
+		9286498B1D6711E600F00C7C /* ShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9286498A1D6711E600F00C7C /* ShowCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9286494C1D670FE400F00C7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9286492B1D670FE300F00C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 928649491D670FE400F00C7C;
+			remoteInfo = "TableView的使用 WatchKit App";
+		};
+		9286495B1D670FE400F00C7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9286492B1D670FE300F00C7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 928649581D670FE400F00C7C;
+			remoteInfo = "TableView的使用 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		928649711D670FE400F00C7C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9286495A1D670FE400F00C7C /* TableView的使用 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928649751D670FE400F00C7C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9286494B1D670FE400F00C7C /* TableView的使用 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		928649331D670FE300F00C7C /* TableView的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableView的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		928649371D670FE300F00C7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		928649391D670FE300F00C7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9286493A1D670FE300F00C7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9286493C1D670FE300F00C7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9286493D1D670FE300F00C7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		928649401D670FE300F00C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		928649421D670FE300F00C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		928649451D670FE300F00C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		928649471D670FE300F00C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9286494A1D670FE400F00C7C /* TableView的使用 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableView的使用 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		928649501D670FE400F00C7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		928649521D670FE400F00C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		928649541D670FE400F00C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928649591D670FE400F00C7C /* TableView的使用 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TableView的使用 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9286495F1D670FE400F00C7C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		928649601D670FE400F00C7C /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		928649611D670FE400F00C7C /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		928649631D670FE400F00C7C /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		928649641D670FE400F00C7C /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		928649661D670FE400F00C7C /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		928649671D670FE400F00C7C /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		928649691D670FE400F00C7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9286496B1D670FE400F00C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9286497A1D6710FB00F00C7C /* ad_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ad_00.png; sourceTree = "<group>"; };
+		9286497B1D6710FB00F00C7C /* ad_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ad_01.png; sourceTree = "<group>"; };
+		9286497C1D6710FB00F00C7C /* ad_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ad_02.png; sourceTree = "<group>"; };
+		9286497D1D6710FB00F00C7C /* ad_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ad_03.png; sourceTree = "<group>"; };
+		9286497E1D6710FB00F00C7C /* ad_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ad_04.png; sourceTree = "<group>"; };
+		928649891D6711E600F00C7C /* ShowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowCell.h; sourceTree = "<group>"; };
+		9286498A1D6711E600F00C7C /* ShowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		928649301D670FE300F00C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928649561D670FE400F00C7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9286492A1D670FE300F00C7C = {
+			isa = PBXGroup;
+			children = (
+				928649351D670FE300F00C7C /* TableView的使用 */,
+				9286494E1D670FE400F00C7C /* TableView的使用 WatchKit App */,
+				9286495D1D670FE400F00C7C /* TableView的使用 WatchKit Extension */,
+				928649341D670FE300F00C7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		928649341D670FE300F00C7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				928649331D670FE300F00C7C /* TableView的使用.app */,
+				9286494A1D670FE400F00C7C /* TableView的使用 WatchKit App.app */,
+				928649591D670FE400F00C7C /* TableView的使用 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		928649351D670FE300F00C7C /* TableView的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				928649391D670FE300F00C7C /* AppDelegate.h */,
+				9286493A1D670FE300F00C7C /* AppDelegate.m */,
+				9286493C1D670FE300F00C7C /* ViewController.h */,
+				9286493D1D670FE300F00C7C /* ViewController.m */,
+				9286493F1D670FE300F00C7C /* Main.storyboard */,
+				928649421D670FE300F00C7C /* Assets.xcassets */,
+				928649441D670FE300F00C7C /* LaunchScreen.storyboard */,
+				928649471D670FE300F00C7C /* Info.plist */,
+				928649361D670FE300F00C7C /* Supporting Files */,
+			);
+			path = "TableView的使用";
+			sourceTree = "<group>";
+		};
+		928649361D670FE300F00C7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				928649371D670FE300F00C7C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9286494E1D670FE400F00C7C /* TableView的使用 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				928649791D6710FB00F00C7C /* ads */,
+				9286494F1D670FE400F00C7C /* Interface.storyboard */,
+				928649521D670FE400F00C7C /* Assets.xcassets */,
+				928649541D670FE400F00C7C /* Info.plist */,
+			);
+			path = "TableView的使用 WatchKit App";
+			sourceTree = "<group>";
+		};
+		9286495D1D670FE400F00C7C /* TableView的使用 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				928649601D670FE400F00C7C /* InterfaceController.h */,
+				928649611D670FE400F00C7C /* InterfaceController.m */,
+				928649631D670FE400F00C7C /* ExtensionDelegate.h */,
+				928649641D670FE400F00C7C /* ExtensionDelegate.m */,
+				928649661D670FE400F00C7C /* NotificationController.h */,
+				928649671D670FE400F00C7C /* NotificationController.m */,
+				928649691D670FE400F00C7C /* Assets.xcassets */,
+				9286496B1D670FE400F00C7C /* Info.plist */,
+				928649891D6711E600F00C7C /* ShowCell.h */,
+				9286498A1D6711E600F00C7C /* ShowCell.m */,
+				9286495E1D670FE400F00C7C /* Supporting Files */,
+			);
+			path = "TableView的使用 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		9286495E1D670FE400F00C7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9286495F1D670FE400F00C7C /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		928649791D6710FB00F00C7C /* ads */ = {
+			isa = PBXGroup;
+			children = (
+				9286497A1D6710FB00F00C7C /* ad_00.png */,
+				9286497B1D6710FB00F00C7C /* ad_01.png */,
+				9286497C1D6710FB00F00C7C /* ad_02.png */,
+				9286497D1D6710FB00F00C7C /* ad_03.png */,
+				9286497E1D6710FB00F00C7C /* ad_04.png */,
+			);
+			path = ads;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		928649321D670FE300F00C7C /* TableView的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928649761D670FE400F00C7C /* Build configuration list for PBXNativeTarget "TableView的使用" */;
+			buildPhases = (
+				9286492F1D670FE300F00C7C /* Sources */,
+				928649301D670FE300F00C7C /* Frameworks */,
+				928649311D670FE300F00C7C /* Resources */,
+				928649751D670FE400F00C7C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9286494D1D670FE400F00C7C /* PBXTargetDependency */,
+			);
+			name = "TableView的使用";
+			productName = "TableView的使用";
+			productReference = 928649331D670FE300F00C7C /* TableView的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		928649491D670FE400F00C7C /* TableView的使用 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928649721D670FE400F00C7C /* Build configuration list for PBXNativeTarget "TableView的使用 WatchKit App" */;
+			buildPhases = (
+				928649481D670FE400F00C7C /* Resources */,
+				928649711D670FE400F00C7C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9286495C1D670FE400F00C7C /* PBXTargetDependency */,
+			);
+			name = "TableView的使用 WatchKit App";
+			productName = "TableView的使用 WatchKit App";
+			productReference = 9286494A1D670FE400F00C7C /* TableView的使用 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		928649581D670FE400F00C7C /* TableView的使用 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9286496E1D670FE400F00C7C /* Build configuration list for PBXNativeTarget "TableView的使用 WatchKit Extension" */;
+			buildPhases = (
+				928649551D670FE400F00C7C /* Sources */,
+				928649561D670FE400F00C7C /* Frameworks */,
+				928649571D670FE400F00C7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableView的使用 WatchKit Extension";
+			productName = "TableView的使用 WatchKit Extension";
+			productReference = 928649591D670FE400F00C7C /* TableView的使用 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9286492B1D670FE300F00C7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SLZeng;
+				TargetAttributes = {
+					928649321D670FE300F00C7C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					928649491D670FE400F00C7C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					928649581D670FE400F00C7C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9286492E1D670FE300F00C7C /* Build configuration list for PBXProject "TableView的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9286492A1D670FE300F00C7C;
+			productRefGroup = 928649341D670FE300F00C7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				928649321D670FE300F00C7C /* TableView的使用 */,
+				928649491D670FE400F00C7C /* TableView的使用 WatchKit App */,
+				928649581D670FE400F00C7C /* TableView的使用 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		928649311D670FE300F00C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928649461D670FE300F00C7C /* LaunchScreen.storyboard in Resources */,
+				928649431D670FE300F00C7C /* Assets.xcassets in Resources */,
+				928649411D670FE300F00C7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928649481D670FE400F00C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928649531D670FE400F00C7C /* Assets.xcassets in Resources */,
+				928649871D6710FB00F00C7C /* ad_04.png in Resources */,
+				928649811D6710FB00F00C7C /* ad_01.png in Resources */,
+				928649831D6710FB00F00C7C /* ad_02.png in Resources */,
+				928649511D670FE400F00C7C /* Interface.storyboard in Resources */,
+				9286497F1D6710FB00F00C7C /* ad_00.png in Resources */,
+				928649851D6710FB00F00C7C /* ad_03.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928649571D670FE400F00C7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928649861D6710FB00F00C7C /* ad_03.png in Resources */,
+				928649801D6710FB00F00C7C /* ad_00.png in Resources */,
+				928649881D6710FB00F00C7C /* ad_04.png in Resources */,
+				9286496A1D670FE400F00C7C /* Assets.xcassets in Resources */,
+				928649841D6710FB00F00C7C /* ad_02.png in Resources */,
+				928649821D6710FB00F00C7C /* ad_01.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9286492F1D670FE300F00C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9286493E1D670FE300F00C7C /* ViewController.m in Sources */,
+				9286493B1D670FE300F00C7C /* AppDelegate.m in Sources */,
+				928649381D670FE300F00C7C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928649551D670FE400F00C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928649651D670FE400F00C7C /* ExtensionDelegate.m in Sources */,
+				928649621D670FE400F00C7C /* InterfaceController.m in Sources */,
+				9286498B1D6711E600F00C7C /* ShowCell.m in Sources */,
+				928649681D670FE400F00C7C /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9286494D1D670FE400F00C7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 928649491D670FE400F00C7C /* TableView的使用 WatchKit App */;
+			targetProxy = 9286494C1D670FE400F00C7C /* PBXContainerItemProxy */;
+		};
+		9286495C1D670FE400F00C7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 928649581D670FE400F00C7C /* TableView的使用 WatchKit Extension */;
+			targetProxy = 9286495B1D670FE400F00C7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9286493F1D670FE300F00C7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				928649401D670FE300F00C7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		928649441D670FE300F00C7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				928649451D670FE300F00C7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9286494F1D670FE400F00C7C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				928649501D670FE400F00C7C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9286496C1D670FE400F00C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9286496D1D670FE400F00C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9286496F1D670FE400F00C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableView的使用 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zeng.TableView---.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		928649701D670FE400F00C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableView的使用 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zeng.TableView---.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		928649731D670FE400F00C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = "TableView____WatchKit_Extension";
+				INFOPLIST_FILE = "TableView的使用 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zeng.TableView---.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		928649741D670FE400F00C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = "TableView____WatchKit_Extension";
+				INFOPLIST_FILE = "TableView的使用 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zeng.TableView---.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		928649771D670FE400F00C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableView的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zeng.TableView---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		928649781D670FE400F00C7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableView的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Zeng.TableView---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9286492E1D670FE300F00C7C /* Build configuration list for PBXProject "TableView的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9286496C1D670FE400F00C7C /* Debug */,
+				9286496D1D670FE400F00C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9286496E1D670FE400F00C7C /* Build configuration list for PBXNativeTarget "TableView的使用 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9286496F1D670FE400F00C7C /* Debug */,
+				928649701D670FE400F00C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		928649721D670FE400F00C7C /* Build configuration list for PBXNativeTarget "TableView的使用 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928649731D670FE400F00C7C /* Debug */,
+				928649741D670FE400F00C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		928649761D670FE400F00C7C /* Build configuration list for PBXNativeTarget "TableView的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928649771D670FE400F00C7C /* Debug */,
+				928649781D670FE400F00C7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9286492B1D670FE300F00C7C /* Project object */;
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <table alignment="left" id="dRO-wm-lIa">
+                            <items>
+                                <tableRow identifier="row1" id="4aX-aY-pVN" userLabel="row1" customClass="ShowCell">
+                                    <group key="rootItem" width="1" height="51.5" alignment="left" id="KDA-Bi-CC9">
+                                        <items>
+                                            <imageView width="88.5" alignment="left" id="mBz-QG-pw1"/>
+                                            <label width="88.5" height="43.5" alignment="left" text="Label" id="2GI-rB-jwn"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="image" destination="mBz-QG-pw1" id="jrE-GO-svt"/>
+                                        <outlet property="label" destination="2GI-rB-jwn" id="ekK-EX-e3o"/>
+                                    </connections>
+                                </tableRow>
+                                <tableRow identifier="row2" id="5qG-Sb-Qpw" userLabel="row2">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="D5D-6B-QyC">
+                                        <items>
+                                            <switch width="0.40000000000000002" alignment="left" value="YES" id="lD2-nX-mvE"/>
+                                        </items>
+                                    </group>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <group width="1" alignment="left" id="ZfD-EM-TuL">
+                            <items>
+                                <button width="0.5" alignment="left" title="添加" id="grd-bG-4aW">
+                                    <connections>
+                                        <action selector="addRow" destination="AgC-eL-Hgc" id="POB-Af-bDA"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="删除" id="Mml-Fp-PhO">
+                                    <connections>
+                                        <action selector="deleteRow" destination="AgC-eL-Hgc" id="l0M-DS-koF"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="tableView" destination="dRO-wm-lIa" id="VLm-nr-D5R"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>
